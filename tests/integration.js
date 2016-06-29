@@ -101,7 +101,7 @@ if (process.isMaster) {
     setTimeout(function() {
       //api.impress.logApiMethod('fs.stat');
       for (var i = 0; i < config.tasks.length; i++) httpTask(config.tasks[i]);
-    }, 500);
+    }, 2000);
   });
 } else {
   impress.server.start();
