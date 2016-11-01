@@ -7,7 +7,7 @@
     caption: 'System Users',
     fields: {
       _id:      { caption: 'Id',        type: 'id' },
-      login:    { caption: 'Login',     type: 'str', size: 64, nullable: false, index: { unique: true } },
+      login:    { caption: 'Login',     type: 'str', size: 64, nullable: false },
       password: { caption: 'Password',  type: 'str', size: 64, nullable: false },
       group:    { caption: 'Group',     type: 'str', size: 64 }
     },
